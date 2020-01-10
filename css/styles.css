@@ -4,9 +4,10 @@ background-image: url(../img/background.jpg);
 background-repeat: no-repeat;
 background-size: 100%;
 }
-.aboutme {
-  left: 25%;
+.about-me {
+  left: 35%;
   top: 50%;
+  
   position: absolute;
   width: 500px;
   padding: 30px;
