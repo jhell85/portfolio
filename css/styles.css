@@ -28,3 +28,8 @@ height: 100%
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.container h2 {
+  text-align: center;
+  margin-right: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
