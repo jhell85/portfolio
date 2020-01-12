@@ -17,7 +17,6 @@ body {
   height: 140px;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-image: url(../img/Myself.jpg);
   border-radius: 48%;
   float: left ;
   shape-outside: circle(50%);
