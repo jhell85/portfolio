@@ -4,6 +4,10 @@
 
 ### This was designed to show my profile and resume as web developer and programer
 
+### Github Pages link:
+
+https://jhell85.github.io/portfolio/
+
 ### Setup
 
 * _Clone this repository_
