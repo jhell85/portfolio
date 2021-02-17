@@ -3,30 +3,15 @@ import { Image, Menu, Sticky } from "semantic-ui-react";
 import _ from "lodash";
 import styled, { ThemeProvider } from "styled-components";
 
-import "./App.css";
+import "./styles/App.css";
 import About from "./About";
-import { StyledScrollTo, StyledSegment } from "./styledComponents";
+import Portfolio from "./Portfolio";
+import ContactForm from "./ContactForm";
+import { StyledScrollTo, StyledSegment } from "./styles/styledComponents";
 
 import FakeData from "./fake-data";
 
 function App() {
-  const Container = styled.div`
-    margin: 5px auto 5px auto;
-  `;
-
-  // useEffect(() => {
-  //   WebFont.load({
-  //     google: {
-  //       families: getFonts(),
-  //     },
-  //   });
-  // });
-
-  // useEffect(() => {
-  //   console.log(theme);
-  //   setSelectedTheme(theme);
-  // }, [themeLoaded]);
-
   const contextRef = createRef();
 
   const myTheme = { background: "#0d47a1", color: "black" };
@@ -48,7 +33,6 @@ function App() {
               </div>
             </div>
             <Sticky context={contextRef}>
-              {/* <StyledButton>My Button</StyledButton> */}
               <Menu widths={3}>
                 <StyledScrollTo className="menu item" selector="#about-content">
                   About
@@ -64,21 +48,12 @@ function App() {
             <StyledSegment attached="bottom">
               <div id="about-content">
                 <About />
-                {/* <h5>About</h5>
-                {_.times(10, (i) => (
-                  <Image
-                    key={i}
-                    src="https://react.semantic-ui.com/images/wireframe/paragraph.png"
-                  />
-                ))} */}
               </div>
               <div id="portfolio-content">
-                <h5>Portfolio</h5>
-                <FakeData />
+                <Portfolio />
               </div>
               <div id="contact-content">
-                <h5>contact</h5>
-                <FakeData />
+                <ContactForm />
               </div>
             </StyledSegment>
           </div>
