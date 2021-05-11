@@ -1,29 +1,28 @@
 import React from "react";
-import wordGame from "./img/wordGame.gif";
 import wagerPlacer from "./img/WP.gif";
 import streamers from "./img/streamers.gif";
 import { PaddedContainer, StyledA } from "./styles/styledComponents";
 import { Container } from "semantic-ui-react";
 
-const Portfolio = () => {
+const ProfessionalExperience = () => {
   return (
     <PaddedContainer>
       <Container textAlign="center">
-        <h2>Personal Projects</h2>
+        <h2>Professional Experience</h2>
       </Container>
       <div className="ui items">
         <div className="item">
-          <div className="image">
-            <img src={wordGame} alt="GIF of Generic Word Game" />
+          <div style={{background: 'black', minHeight: '100px'}} className="image">
+            <img   src={'https://theoremadvertising.com/wp-content/uploads/2021/01/xcropped-Theorem-Logo-White-Text-2.png.pagespeed.ic.Ie6RP6MNgW.webp'} alt="GIF of Generic Word Game" />
           </div>
           <div className="content" style={{ paddingTop: "10px" }}>
             <StyledA
               target="_blank"
               rel="noopener noreferrer"
-              href="https://jhell85.github.io/word-game"
+              href="https://theoremadvertising.com/"
               className="header"
             >
-              Generic Word Game
+              Theorem Advertising 
             </StyledA>
             <div class="description">
               <p>
@@ -83,4 +82,4 @@ const Portfolio = () => {
     </PaddedContainer>
   );
 };
-export default Portfolio;
+export default ProfessionalExperience;
