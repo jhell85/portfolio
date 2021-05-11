@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { MenuItem, Button, Segment } from "semantic-ui-react";
+import { Segment } from "semantic-ui-react";
 import ScrollTo from "react-scroll-into-view";
 
 const myTheme = {

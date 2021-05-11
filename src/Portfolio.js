@@ -14,7 +14,7 @@ const Portfolio = () => {
       <div className="ui items">
         <div className="item">
           <div className="image">
-            <img src={wordGame} />
+            <img src={wordGame} alt="GIF of Generic Word Game" />
           </div>
           <div className="content" style={{ paddingTop: "10px" }}>
             <StyledA
@@ -36,7 +36,7 @@ const Portfolio = () => {
         </div>
         <div className="item">
           <div className="image">
-            <img src={wagerPlacer} />
+            <img src={wagerPlacer} alt="GIF of Wager Placer" />
           </div>
           <div className="content" style={{ paddingTop: "10px" }}>
             <StyledA
@@ -59,7 +59,7 @@ const Portfolio = () => {
         </div>
         <div className="item">
           <div className="image">
-            <img src={streamers} />
+            <img src={streamers} alt="GIF of Streamers"/>
           </div>
           <div className="content" style={{ paddingTop: "10px" }}>
             <StyledA

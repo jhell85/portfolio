@@ -1,8 +1,5 @@
 import React, { createRef } from "react";
 import { Menu, Sticky } from "semantic-ui-react";
-import _ from "lodash";
-import { ThemeProvider } from "styled-components";
-
 import "./styles/App.css";
 import About from "./About";
 import Portfolio from "./Portfolio";

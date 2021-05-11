@@ -7,7 +7,7 @@ const About = () => {
     <PaddedContainer className="ui items">
       <div className="item">
         <div className="image">
-          <img src={headShot} />
+          <img src={headShot} alt="Head Shot of Josh" />
         </div>
         <div className=" middle aligned content">
           <div className="header">
