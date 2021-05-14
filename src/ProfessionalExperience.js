@@ -25,13 +25,25 @@ const ProfessionalExperience = () => {
               Theorem Advertising 
             </StyledA>
             <div style={{ paddingLeft: "5px" }} class="ui header">August 2020 - October 2020</div>
+            
             <div class="description">
-              <p>
-                Worked as an Intern for Theorem Advertising, I was responsible for improving & adding features for their clients. 
-                Helped implement a new component for the Portland Trail Blazers website, a live court play by play page with live in game updates and a shot map of where shots where made and missed.
-                Converted ticket pages for some MLS Soccer leagues from Vanilla Java Script to use React Functional components 
+            <StyledA
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.evernote.com/shard/s683/client/snv?noteGuid=5a515290-60c5-4367-9540-38209219d82d&noteKey=8ee3a0d19f174669cff2680227f38183&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs683%2Fsh%2F5a515290-60c5-4367-9540-38209219d82d%2F8ee3a0d19f174669cff2680227f38183&title=Theorem%2B%2BResume"
+             
+            >
+              Detailed Resume 
+            </StyledA>
+              <p
+               style={{ paddingTop: "10px" }}
+              >
+                Working as an Intern I was responsible for improving & adding features for their client's websites. 
+                Helped implement a new component for the Portland Trail Blazers, a live court play by play page with in game updates and a shot map of where shots where made and missed.
+                Converted ticket pages for some MLS Soccer leagues into reusable React components.
                 {" "}
               </p>
+             
             </div>
           </div>
         </div>
@@ -51,8 +63,9 @@ const ProfessionalExperience = () => {
             <div style={{ paddingLeft: "5px" }} class="ui header">March 2021 - May 2021</div>
             <div class="description">
               <p>
-                Internship tasked with Quality Assurance responsibilities including writing test suites for their frontend using Cypress.io. 
-                If bugs were encountered while writing the tests, draft up new bug ticket in Jira & implementing smaller bug fixes. 
+                Working as an Intern I was tasked with Quality Assurance responsibilities including writing test suites for their frontend using Cypress.io. 
+                While writing test cases if bugs were discovered I was responsible for drafting up a new bug ticket in Jira. Along with being tasked to
+                implement fixes for the bugs that I encountered. 
               </p>
             </div>
           </div>
