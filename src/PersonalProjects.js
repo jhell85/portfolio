@@ -5,7 +5,7 @@ import streamers from "./img/streamers.gif";
 import { PaddedContainer, StyledA } from "./styles/styledComponents";
 import { Container } from "semantic-ui-react";
 
-const Portfolio = () => {
+const PersonalProjects = () => {
   return (
     <PaddedContainer>
       <Container textAlign="center">
@@ -83,4 +83,4 @@ const Portfolio = () => {
     </PaddedContainer>
   );
 };
-export default Portfolio;
+export default PersonalProjects;

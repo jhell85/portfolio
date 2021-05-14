@@ -2,8 +2,9 @@ import React, { createRef } from "react";
 import { Menu, Sticky } from "semantic-ui-react";
 import "./styles/App.css";
 import About from "./About";
-import Portfolio from "./Portfolio";
+import PersonalProjects from "./PersonalProjects";
 import ContactForm from "./ContactForm";
+import ProfessionalExperience from "./ProfessionalExperience";
 import { StyledScrollTo, StyledSegment } from "./styles/styledComponents";
 
 function App() {
@@ -23,12 +24,15 @@ function App() {
           </div>
         </div>
         <Sticky context={contextRef}>
-          <Menu widths={3}>
+          <Menu widths={4}>
             <StyledScrollTo className="menu item" selector="#about-content">
               About
             </StyledScrollTo>
-            <StyledScrollTo className="menu item" selector="#portfolio-content">
-              Portfolio
+            <StyledScrollTo className="menu item" selector="#personal-projects-content">
+              Personal Projects
+            </StyledScrollTo>
+            <StyledScrollTo className="menu item" selector="#professional-experience-content">
+              Professional Experience
             </StyledScrollTo>
             <StyledScrollTo className="menu item" selector="#contact-content">
               Contact
@@ -39,8 +43,11 @@ function App() {
           <div id="about-content">
             <About />
           </div>
-          <div id="portfolio-content">
-            <Portfolio />
+          <div id="personal-projects-content">
+            <PersonalProjects />
+          </div>
+          <div id="professional-experience-content">
+            <ProfessionalExperience />
           </div>
           <div id="contact-content">
             <ContactForm />
