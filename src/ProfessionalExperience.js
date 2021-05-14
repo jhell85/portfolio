@@ -1,6 +1,4 @@
 import React from "react";
-import wagerPlacer from "./img/WP.gif";
-import streamers from "./img/streamers.gif";
 import { PaddedContainer, StyledA } from "./styles/styledComponents";
 import { Container } from "semantic-ui-react";
 
@@ -13,7 +11,9 @@ const ProfessionalExperience = () => {
       <div className="ui items">
         <div className="item">
           <div style={{background: 'black', minHeight: '100px'}} className="image">
-            <img style={{top: "50%", transform: "translateY(25%)", padding:"5px", justifyContent: 'center' }}  src={'https://theoremadvertising.com/wp-content/uploads/2021/01/xcropped-Theorem-Logo-White-Text-2.png.pagespeed.ic.Ie6RP6MNgW.webp'} alt="GIF of Generic Word Game" />
+            <img style={{top: "50%", transform: "translateY(25%)", padding:"5px", justifyContent: 'center' }} 
+             src={'https://theoremadvertising.com/wp-content/uploads/2021/01/xcropped-Theorem-Logo-White-Text-2.png.pagespeed.ic.Ie6RP6MNgW.webp'}
+              alt="Theorem Advertising" />
           </div>
           <div className="content" style={{ paddingTop: "10px" }}>
             <StyledA
@@ -49,7 +49,9 @@ const ProfessionalExperience = () => {
         </div>
         <div className="item">
           <div style={{background: 'white', minHeight: '100px'}} className="image">
-            <img style={{top: "50%", transform: "translateY(50%)", padding:"5px", justifyContent: 'center' }} src="https://s3-us-west-2.amazonaws.com/freddieflip/uploads/2018/08/06053351/RPC-Logo_Primary-Logo1.png" alt="Rock Paper Coin" />
+            <img style={{top: "50%", transform: "translateY(50%)", padding:"5px", justifyContent: 'center' }} 
+            src="https://s3-us-west-2.amazonaws.com/freddieflip/uploads/2018/08/06053351/RPC-Logo_Primary-Logo1.png" 
+            alt="Rock Paper Coin" />
           </div>
           <div className="content" style={{ paddingTop: "10px" }}>
             <StyledA
