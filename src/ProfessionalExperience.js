@@ -13,67 +13,46 @@ const ProfessionalExperience = () => {
       <div className="ui items">
         <div className="item">
           <div style={{background: 'black', minHeight: '100px'}} className="image">
-            <img   src={'https://theoremadvertising.com/wp-content/uploads/2021/01/xcropped-Theorem-Logo-White-Text-2.png.pagespeed.ic.Ie6RP6MNgW.webp'} alt="GIF of Generic Word Game" />
+            <img style={{top: "50%", transform: "translateY(25%)", padding:"5px", justifyContent: 'center' }}  src={'https://theoremadvertising.com/wp-content/uploads/2021/01/xcropped-Theorem-Logo-White-Text-2.png.pagespeed.ic.Ie6RP6MNgW.webp'} alt="GIF of Generic Word Game" />
           </div>
           <div className="content" style={{ paddingTop: "10px" }}>
             <StyledA
               target="_blank"
               rel="noopener noreferrer"
               href="https://theoremadvertising.com/"
-              className="header"
+              className="ui header"
             >
               Theorem Advertising 
             </StyledA>
+            <div style={{ paddingLeft: "5px" }} class="ui header">August 2020 - October 2020</div>
             <div class="description">
               <p>
-                a hangman style word game that is built with ReactJS and uses Redux for
-                State management, It has a very simple but effective UI. This was one of
-                my first apps I built using ReactJS and Redux.{" "}
+                Worked as an Intern for Theorem Advertising, I was responsible for improving & adding features for their clients. 
+                Helped implement a new component for the Portland Trail Blazers website, a live court play by play page with live in game updates and a shot map of where shots where made and missed.
+                Converted ticket pages for some MLS Soccer leagues from Vanilla Java Script to use React Functional components 
+                {" "}
               </p>
             </div>
           </div>
         </div>
         <div className="item">
-          <div className="image">
-            <img src={wagerPlacer} alt="GIF of Wager Placer" />
+          <div style={{background: 'white', minHeight: '100px'}} className="image">
+            <img style={{top: "50%", transform: "translateY(50%)", padding:"5px", justifyContent: 'center' }} src="https://s3-us-west-2.amazonaws.com/freddieflip/uploads/2018/08/06053351/RPC-Logo_Primary-Logo1.png" alt="Rock Paper Coin" />
           </div>
           <div className="content" style={{ paddingTop: "10px" }}>
             <StyledA
               target="_blank"
               rel="noopener noreferrer"
-              href="https://wager-placer.herokuapp.com"
+              href="https://rockpapercoin.com/"
               className="header"
             >
-              Wager Placer
+              Rock Paper Coin
             </StyledA>
+            <div style={{ paddingLeft: "5px" }} class="ui header">March 2021 - May 2021</div>
             <div class="description">
               <p>
-                a social media app designed to let users place wagers on sporting events
-                with one another, this app is still in it's early stages of development.
-                The app is developed with a MERN stack, uses Redux for managing State and
-                React-router for app navigation.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="item">
-          <div className="image">
-            <img src={streamers} alt="GIF of Streamers"/>
-          </div>
-          <div className="content" style={{ paddingTop: "10px" }}>
-            <StyledA
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://kind-hopper-912037.netlify.app/"
-              className="header"
-            >
-              Streamers
-            </StyledA>
-            <div class="description">
-              <p>
-                an app that lets users start their own stream and broadcast it. the app
-                has Google OAuth2 for user authentication and has full CRUD for records of
-                streams.
+                Internship tasked with Quality Assurance responsibilities including writing test suites for their frontend using Cypress.io. 
+                If bugs were encountered while writing the tests, draft up new bug ticket in Jira & implementing smaller bug fixes. 
               </p>
             </div>
           </div>
