@@ -9,6 +9,31 @@ const ProfessionalExperience = () => {
         <h2>Professional Experience</h2>
       </Container>
       <div className="ui items">
+      <div className="item">
+          <div style={{background: 'white', minHeight: '100px'}} className="image">
+            <img style={{top: "50%", transform: "translateY(50%)", padding:"5px", justifyContent: 'center' }} 
+            src="https://s3-us-west-2.amazonaws.com/freddieflip/uploads/2018/08/06053351/RPC-Logo_Primary-Logo1.png" 
+            alt="Rock Paper Coin" />
+          </div>
+          <div className="content" style={{ paddingTop: "10px" }}>
+            <StyledA
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://rockpapercoin.com/"
+              className="header"
+            >
+              Rock Paper Coin
+            </StyledA>
+            <div style={{ paddingLeft: "5px" }} class="ui header">March 2021 - May 2021</div>
+            <div class="description">
+              <p>
+                Working as an Intern I was tasked with Quality Assurance responsibilities including writing test suites for their frontend using Cypress.io. 
+                While writing test cases if bugs were discovered I was responsible for drafting up a new bug ticket in Jira. Along with being tasked to
+                implement fixes for the bugs that I encountered. 
+              </p>
+            </div>
+          </div>
+        </div>
         <div className="item">
           <div style={{background: 'black', minHeight: '100px'}} className="image">
             <img style={{top: "50%", transform: "translateY(25%)", padding:"5px", justifyContent: 'center' }} 
@@ -44,31 +69,6 @@ const ProfessionalExperience = () => {
                 {" "}
               </p>
              
-            </div>
-          </div>
-        </div>
-        <div className="item">
-          <div style={{background: 'white', minHeight: '100px'}} className="image">
-            <img style={{top: "50%", transform: "translateY(50%)", padding:"5px", justifyContent: 'center' }} 
-            src="https://s3-us-west-2.amazonaws.com/freddieflip/uploads/2018/08/06053351/RPC-Logo_Primary-Logo1.png" 
-            alt="Rock Paper Coin" />
-          </div>
-          <div className="content" style={{ paddingTop: "10px" }}>
-            <StyledA
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://rockpapercoin.com/"
-              className="header"
-            >
-              Rock Paper Coin
-            </StyledA>
-            <div style={{ paddingLeft: "5px" }} class="ui header">March 2021 - May 2021</div>
-            <div class="description">
-              <p>
-                Working as an Intern I was tasked with Quality Assurance responsibilities including writing test suites for their frontend using Cypress.io. 
-                While writing test cases if bugs were discovered I was responsible for drafting up a new bug ticket in Jira. Along with being tasked to
-                implement fixes for the bugs that I encountered. 
-              </p>
             </div>
           </div>
         </div>
