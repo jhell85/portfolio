@@ -1,17 +1,35 @@
-import React from "react";
+import {React, useEffect, useState }from "react";
 import { PaddedContainer, StyledA } from "./styles/styledComponents";
 import { Container } from "semantic-ui-react";
 
 const ProfessionalExperience = () => {
+
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
+
+useEffect(() => {
+    window.addEventListener("resize", () => {
+        const ismobile = window.innerWidth < 767;
+        if (ismobile !== isMobile) setIsMobile(ismobile);
+    }, false);
+}, [isMobile]);
+
+// {/* There is no need for a render function with Hooks */}
+// return (
+//     <p className={`${isMobile ? "mobile-class" : "non-mobile-class"}`}>Your text here</p>
+// );
+
   return (
     <PaddedContainer>
       <Container textAlign="center">
         <h2>Professional Experience</h2>
       </Container>
-      <div className="ui unstackable items">
+      <div className="ui items">
 
         <div className="item">
-          <div className="ui small experience-img image">
+          <div 
+          className={`ui small experience-img guild
+          ${isMobile ? "padding-bottom" : "image"}`}
+          >
             <img 
             src="https://pdxcodeguild.com/static/img/pdxcglogo.svg" 
             alt="PDX Code Guild logo" />
@@ -25,7 +43,7 @@ const ProfessionalExperience = () => {
             >
               PDX Code Guild
             </StyledA>
-            <div class="ui header padding-left">May 2021 - present</div>
+            <div class="ui header padding-left">May 2021 - Present</div>
             <div class="description">
               <p>
                 Working as a Teacher's assistant helping in the Code Guild's Fullstack web development course. Assisting students in learning

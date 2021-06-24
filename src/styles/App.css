@@ -48,10 +48,17 @@
   background: black !important;
 }
 
+.guild > img {
+  width: 250px !important;
+}
+
 .padding-left{
   padding-left: 5px !important;
 }
 
 .padding-top{
   padding-top: 10px !important;
+}
+.padding-bottom{
+  padding-bottom: 30px !important;
 }
