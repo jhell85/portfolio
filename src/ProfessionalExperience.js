@@ -45,9 +45,7 @@ useEffect(() => {
             <div class="ui header padding-left">May 2021 - Present</div>
             <div class="description">
               <p>
-                Working as a Teacher's assistant helping in the Code Guild's Fullstack web development course. Assisting students in learning
-                to programing in Python, JavaScript, HTML & CSS languages, and helping students develop full web applications using Python's 
-                Django Framework.  
+              Working as a Teacher’s Assistant for the Code Guild’s Fullstack web development course. Assisting students in developing a functional understanding of programming principles and methodologies using Python, JavaScript, HTML, & CSS, as well as full web application development using Python's Django Framework.
               </p>
             </div>
           </div>
@@ -73,9 +71,7 @@ useEffect(() => {
               <p
                 className="padding-top"
               >
-                Working as an Intern I was tasked with Quality Assurance responsibilities including writing test suites for their frontend using Cypress.io. 
-                While writing test cases if bugs were discovered I was responsible for drafting up a new bug ticket in Jira. Along with being tasked to
-                implement fixes for the bugs that I encountered. 
+                Working as an intern. I was primarily responsible for performing quality assurance functions including writing test suites for their front-end using Cypress.io, drafting up and submitting bug tickets in Jira, and implementing bug fixes. I also assisted in work order triage and troubleshooting.
               </p>
             </div>
           </div>
@@ -111,9 +107,7 @@ useEffect(() => {
             </a>
               <p
               >
-                Working as an Intern I was responsible for improving & adding features for their client's websites. 
-                Helped implement a new component for the Portland Trail Blazers, a live court play by play page with in game updates and a shot map of where shots where made and missed.
-                Converted ticket pages for some MLS Soccer leagues into reusable React components.
+                Working as an intern, I was responsible for identifying and implementing feature enhancements for client websites. I assisted in implementing a new component for the Portland Trail Blazers, specifically a live play-by-play page with in-game updates and a shot map showing where shots were made and missed. I also assisted in converting ticket pages for some MLS Soccer leagues into reusable React components.
                 {" "}
               </p>
              
