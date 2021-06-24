@@ -20,10 +20,38 @@
   font-family: "Big Shoulders Display", cursive;
   color: rgb(243, 131, 56);
 }
+
 .hello {
   font-size: 550%;
 }
+
 .my-name {
   color: rgb(134, 136, 248);
   font-size: 150%;
+}
+
+.experience-img{
+  border-radius: 25px !important;
+  padding: 3px !important
+}
+
+.experience-img > img{
+  display: block;
+  margin: auto;
+}
+
+.rpc{
+  background: white !important;
+}
+
+.theorem{
+  background: black !important;
+}
+
+.padding-left{
+  padding-left: 5px !important;
+}
+
+.padding-top{
+  padding-top: 10px !important;
 }
