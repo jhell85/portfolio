@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
 import { Form, Input, TextArea, Button, Message, Container } from "semantic-ui-react";
-import { PaddedContainer } from "./styles/styledComponents";
 class ContactForm extends Component {
   constructor() {
     super();
@@ -44,7 +43,7 @@ class ContactForm extends Component {
 
   render() {
     return (
-      <PaddedContainer>
+      <Container className="padded-container">
         <Container textAlign="center" style={{ paddingBottom: "10px" }}>
           <h2>Want to Connect?</h2>
           <a
@@ -116,7 +115,7 @@ class ContactForm extends Component {
             />
           </Form>
         </Container>
-      </PaddedContainer>
+      </Container>
     );
   }
 }

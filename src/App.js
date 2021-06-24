@@ -1,11 +1,11 @@
 import React, { createRef } from "react";
-import { Menu, Sticky } from "semantic-ui-react";
+import { Menu, Sticky, Segment } from "semantic-ui-react";
 import "./styles/App.css";
 import About from "./About";
 import PersonalProjects from "./PersonalProjects";
 import ContactForm from "./ContactForm";
 import ProfessionalExperience from "./ProfessionalExperience";
-import { StyledScrollTo, StyledSegment } from "./styles/styledComponents";
+import ScrollTo from "react-scroll-into-view";
 
 function App() {
   const contextRef = createRef();
@@ -25,21 +25,23 @@ function App() {
         </div>
         <Sticky context={contextRef}>
           <Menu widths={4}>
-            <StyledScrollTo className="menu item" selector="#about-content">
+            <ScrollTo className="menu item menu-item-color" selector="#about-content">
               About
-            </StyledScrollTo>
-            <StyledScrollTo className="menu item" selector="#personal-projects-content">
+            </ScrollTo>
+            <ScrollTo className="menu item menu-item-color" selector="#personal-projects-content">
               Personal Projects
-            </StyledScrollTo>
-            <StyledScrollTo className="menu item" selector="#professional-experience-content">
+            </ScrollTo>
+            <ScrollTo className="menu item menu-item-color" selector="#professional-experience-content">
               Professional Experience
-            </StyledScrollTo>
-            <StyledScrollTo className="menu item" selector="#contact-content">
+            </ScrollTo>
+            <ScrollTo className="menu item menu-item-color" selector="#contact-content">
               Contact
-            </StyledScrollTo>
+            </ScrollTo>
           </Menu>
         </Sticky>
-        <StyledSegment attached="bottom">
+        <Segment 
+        className="background-color"
+        attached="bottom">
           <div id="about-content">
             <About />
           </div>
@@ -52,7 +54,7 @@ function App() {
           <div id="contact-content">
             <ContactForm />
           </div>
-        </StyledSegment>
+        </Segment>
       </div>
     </div>
   );

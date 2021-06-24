@@ -2,12 +2,11 @@ import React from "react";
 import wordGame from "./img/wordGame.gif";
 import wagerPlacer from "./img/WP.gif";
 import streamers from "./img/streamers.gif";
-import { PaddedContainer, StyledA } from "./styles/styledComponents";
 import { Container } from "semantic-ui-react";
 
 const PersonalProjects = () => {
   return (
-    <PaddedContainer>
+    <Container className="padded-container">
       <Container textAlign="center">
         <h2>Personal Projects</h2>
       </Container>
@@ -17,14 +16,14 @@ const PersonalProjects = () => {
             <img src={wordGame} alt="GIF of Generic Word Game" />
           </div>
           <div className="content" style={{ paddingTop: "10px" }}>
-            <StyledA
+            <a 
               target="_blank"
               rel="noopener noreferrer"
               href="https://jhell85.github.io/word-game"
-              className="header"
+              className="header a-tag-color"
             >
               Generic Word Game
-            </StyledA>
+            </a>
             <div class="description">
               <p>
                 a hangman style word game that is built with ReactJS and uses Redux for
@@ -39,14 +38,14 @@ const PersonalProjects = () => {
             <img src={wagerPlacer} alt="GIF of Wager Placer" />
           </div>
           <div className="content" style={{ paddingTop: "10px" }}>
-            <StyledA
+            <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://wager-placer.herokuapp.com"
-              className="header"
+              className="header a-tag-color"
             >
               Wager Placer
-            </StyledA>
+            </a>
             <div class="description">
               <p>
                 a social media app designed to let users place wagers on sporting events
@@ -62,14 +61,14 @@ const PersonalProjects = () => {
             <img src={streamers} alt="GIF of Streamers"/>
           </div>
           <div className="content" style={{ paddingTop: "10px" }}>
-            <StyledA
+            <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://kind-hopper-912037.netlify.app/"
-              className="header"
+              className="header a-tag-color"
             >
               Streamers
-            </StyledA>
+            </a>
             <div class="description">
               <p>
                 an app that lets users start their own stream and broadcast it. the app
@@ -80,7 +79,7 @@ const PersonalProjects = () => {
           </div>
         </div>
       </div>
-    </PaddedContainer>
+    </Container>
   );
 };
 export default PersonalProjects;

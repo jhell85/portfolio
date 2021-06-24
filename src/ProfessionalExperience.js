@@ -1,5 +1,4 @@
 import {React, useEffect, useState }from "react";
-import { PaddedContainer, StyledA } from "./styles/styledComponents";
 import { Container } from "semantic-ui-react";
 
 const ProfessionalExperience = () => {
@@ -19,7 +18,7 @@ useEffect(() => {
 // );
 
   return (
-    <PaddedContainer>
+    <Container className="padded-container">
       <Container textAlign="center">
         <h2>Professional Experience</h2>
       </Container>
@@ -35,14 +34,14 @@ useEffect(() => {
             alt="PDX Code Guild logo" />
           </div>
           <div className="middle aligned content" >
-            <StyledA
+            <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://pdxcodeguild.com/"
-              className="header"
+              className="header a-tag-color"
             >
               PDX Code Guild
-            </StyledA>
+            </a>
             <div class="ui header padding-left">May 2021 - Present</div>
             <div class="description">
               <p>
@@ -61,14 +60,14 @@ useEffect(() => {
             alt="Rock Paper Coin" />
           </div>
           <div className="middle aligned content">
-            <StyledA
+            <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://rockpapercoin.com/"
-              className="ui header"
+              className="ui header a-tag-color"
             >
               Rock Paper Coin
-            </StyledA>
+            </a>
             <div class="ui header padding-left">March 2021 - May 2021</div>
             <div class="description ">
               <p
@@ -90,26 +89,26 @@ useEffect(() => {
               alt="Theorem Advertising" />
           </div>
           <div className="middle aligned content">
-            <StyledA
+            <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://theoremadvertising.com/"
-              className="ui header"
+              className="ui header a-tag-color"
             >
               Theorem Advertising 
-            </StyledA>
+            </a>
             <div 
             class="ui header padding-left">August 2020 - October 2020</div>
             
             <div class="description">
-            <StyledA
+            <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.evernote.com/shard/s683/client/snv?noteGuid=5a515290-60c5-4367-9540-38209219d82d&noteKey=8ee3a0d19f174669cff2680227f38183&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs683%2Fsh%2F5a515290-60c5-4367-9540-38209219d82d%2F8ee3a0d19f174669cff2680227f38183&title=Theorem%2B%2BResume"
-             
+              className="a-tag-color"
             >
               Detailed Resume 
-            </StyledA>
+            </a>
               <p
               >
                 Working as an Intern I was responsible for improving & adding features for their client's websites. 
@@ -122,7 +121,7 @@ useEffect(() => {
           </div> 
         </div>
         </div>
-    </PaddedContainer>
+    </Container>
   );
 };
 export default ProfessionalExperience;

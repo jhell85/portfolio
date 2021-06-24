@@ -7,22 +7,21 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* display: flex;
-  justify-content: center;
-  align-items: flex-start; */
-
   flex-direction: column;
   padding-left: 50px;
   padding-top: 25%;
 }
+.background-color{
+  background: #c7c2e9!important;
+}
 
 .landing-text {
-  font-family: "Big Shoulders Display", cursive;
+  font-family: "Big Shoulders Display";
   color: rgb(243, 131, 56);
 }
 
-.hello {
-  font-size: 550%;
+.menu-item-color{
+  color: rgb(243, 131, 56) !important
 }
 
 .my-name {
@@ -33,6 +32,14 @@
 .experience-img{
   border-radius: 25px !important;
   padding: 3px !important
+}
+
+.hello {
+  font-size: 550%;
+}
+
+.a-tag-color{
+  color: #4183c4 !important;
 }
 
 .experience-img > img{
@@ -61,4 +68,8 @@
 }
 .padding-bottom{
   padding-bottom: 30px !important;
+}
+
+.padded-container{
+  padding: 43px 50px 0px 50px !important;
 }

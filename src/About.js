@@ -1,10 +1,10 @@
 import React from "react";
 import headShot from "./img/Joshua_headshot.jpg";
-import { PaddedContainer } from "./styles/styledComponents";
+import { Container } from "semantic-ui-react";
 
 const About = () => {
   return (
-    <PaddedContainer className="ui items">
+    <Container className="ui items padded-container">
       <div className="item">
         <div className="image">
           <img src={headShot} alt="Head Shot of Josh" />
@@ -34,7 +34,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </PaddedContainer>
+    </Container>
   );
 };
 export default About;
