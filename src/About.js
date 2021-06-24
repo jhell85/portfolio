@@ -27,7 +27,7 @@ const About = () => {
                 >
                   USS Chosin
                 </a>
-                , once honorably discharged I went on to run and operate an HVAC
+                , once honorably discharged I went on to own and operate an HVAC
                 construction company out of Gilbert, Arizona.
               </div>
             </h3>
