@@ -44,28 +44,20 @@ class ContactForm extends Component {
   render() {
     return (
       <Container className="padded-container">
-        <Container textAlign="center" style={{ paddingBottom: "10px" }}>
+        <Container className="center" style={{ paddingBottom: "10px" }}>
           <h2>Want to Connect?</h2>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/joshuahellman/"
-          >
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/joshuahellman/">
             <Button circular size="big" color="linkedin" icon="linkedin" />
           </a>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/jhell85">
-            <Button circular size="big" color="github" icon="github" />
+            <Button circular size="big" icon="github" />
           </a>
           <a href="mailto:JoshuaHellman@icloud.com">
             <Button circular size="big" color="yellow" icon="mail" />
           </a>
         </Container>
         <Container>
-          <Message
-            color="teal"
-            hidden={this.state.SentMessage ? false : true}
-            textAlign="center"
-          >
+          <Message color="teal" hidden={this.state.SentMessage ? false : true} className="center">
             <h3>Thank You</h3>
             <p> If requested I'll respond to your message promptly </p>
           </Message>

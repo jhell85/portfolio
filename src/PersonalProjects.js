@@ -7,7 +7,7 @@ import { Container } from "semantic-ui-react";
 const PersonalProjects = () => {
   return (
     <Container className="padded-container">
-      <Container textAlign="center">
+      <Container className="center">
         <h2>Personal Projects</h2>
       </Container>
       <div className="ui items">
@@ -15,8 +15,8 @@ const PersonalProjects = () => {
           <div className="image">
             <img src={wordGame} alt="GIF of Generic Word Game" />
           </div>
-          <div className="middle aligned content" >
-            <a 
+          <div className="middle aligned content">
+            <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://jhell85.github.io/word-game"
@@ -24,9 +24,10 @@ const PersonalProjects = () => {
             >
               Generic Word Game
             </a>
-            <div class="description">
+            <div className="description">
               <p>
-              A Hangman style word game with a very simple but effective UI, built using ReactJS and Redux for State management. This was my first project using ReactJS and Redux.
+                A Hangman style word game with a very simple but effective UI, built using ReactJS and Redux
+                for State management. This was my first project using ReactJS and Redux.
               </p>
             </div>
           </div>
@@ -44,16 +45,18 @@ const PersonalProjects = () => {
             >
               Wager Placer
             </a>
-            <div class="description">
+            <div className="description">
               <p>
-              A social media app designed to allow users to place wagers with one another on sporting events. This app is still in its infant stages of development, however it is built with a MERN stack and utilizes Redux for managing State and React-router for app navigation
+                A social media app designed to allow users to place wagers with one another on sporting
+                events. This app is still in its infant stages of development, however it is built with a MERN
+                stack and utilizes Redux for managing State and React-router for app navigation
               </p>
             </div>
           </div>
         </div>
         <div className="item">
           <div className="image">
-            <img src={streamers} alt="GIF of Streamers"/>
+            <img src={streamers} alt="GIF of Streamers" />
           </div>
           <div className="middle aligned content" style={{ paddingTop: "10px" }}>
             <a
@@ -64,9 +67,10 @@ const PersonalProjects = () => {
             >
               Streamers
             </a>
-            <div class="description">
+            <div className="description">
               <p>
-              An app that allows users to start their own stream and broadcast it. This app utilizes Google OAuth2 for user authentication and has full CRUD for records of streams.
+                An app that allows users to start their own stream and broadcast it. This app utilizes Google
+                OAuth2 for user authentication and has full CRUD for records of streams.
               </p>
             </div>
           </div>

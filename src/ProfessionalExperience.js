@@ -23,7 +23,7 @@ const ProfessionalExperience = () => {
 
   return (
     <Container className="padded-container">
-      <Container textAlign="center">
+      <Container className="center">
         <h2>Professional Experience</h2>
       </Container>
       <div className="ui items">
@@ -43,8 +43,8 @@ const ProfessionalExperience = () => {
             >
               PDX Code Guild
             </a>
-            <div class="ui header padding-left">May 2021 - Present</div>
-            <div class="description">
+            <div className="ui header padding-left">May 2021 - Present</div>
+            <div className="description">
               <p>
                 Working as a Teacher’s Assistant for the Code Guild’s Fullstack web development course.
                 Assisting students in developing a functional understanding of programming principles and
@@ -71,8 +71,8 @@ const ProfessionalExperience = () => {
             >
               Rock Paper Coin
             </a>
-            <div class="ui header padding-left">March 2021 - May 2021</div>
-            <div class="description ">
+            <div className="ui header padding-left">March 2021 - May 2021</div>
+            <div className="description ">
               <p className="padding-top">
                 Working as an intern. I was primarily responsible for performing quality assurance functions
                 including writing test suites for their front-end using Cypress.io, drafting up and submitting
@@ -101,9 +101,9 @@ const ProfessionalExperience = () => {
             >
               Theorem Advertising
             </a>
-            <div class="ui header padding-left">August 2020 - October 2020</div>
+            <div className="ui header padding-left">August 2020 - October 2020</div>
 
-            <div class="description">
+            <div className="description">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
