@@ -36,6 +36,10 @@
   padding: 3px !important;
 }
 
+.item-pt {
+  padding-top: 40px !important;
+}
+
 .hello {
   font-size: 550%;
 }
@@ -51,14 +55,11 @@
 
 .rpc {
   background: white !important;
+  padding: 10px !important;
 }
 
 .theorem {
   background: black !important;
-}
-
-.guild > img {
-  width: 250px !important;
 }
 
 .padding-left {
