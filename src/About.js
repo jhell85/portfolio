@@ -19,7 +19,7 @@ const About = () => {
               <div>
                 Prior to web development, I spent several years in the US Navy station on board the{" "}
                 <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/USS_Chosin">
-                  USS Chosin
+                  USS Chosin (CG-65)
                 </a>
                 , once honorably discharged I went on to own and operate an HVAC construction company out of
                 Gilbert, Arizona.
