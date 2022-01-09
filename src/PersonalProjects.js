@@ -10,7 +10,7 @@ const PersonalProjects = () => {
   return (
     <Container className="padded-container">
       <Container className="center">
-        <h2>Personal Projects</h2>
+        <h1>Personal Projects</h1>
       </Container>
       <div className="ui items">
         <div className="item item-pt">
@@ -27,8 +27,9 @@ const PersonalProjects = () => {
             </a>
             <div className="description">
               <h4>
-                A simple BlackJack game using an external library for cards. Utilizing animate.css for the
-                cards, buttons and the win loss display movements
+                A simple BlackJack game built with vanilla JavaScript utilizing an external CSS library for
+                the cards. Animate.css is used for the movements of the cards, buttons and the win loss
+                display.
               </h4>
             </div>
           </div>

@@ -19,7 +19,7 @@ const ProfessionalExperience = () => {
   return (
     <Container className="padded-container">
       <Container className="center">
-        <h2>Professional Experience</h2>
+        <h1>Professional Experience</h1>
       </Container>
       <div className="ui items">
         <div className="item item-pt">

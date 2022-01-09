@@ -6,7 +6,7 @@ const About = () => {
   return (
     <Container className="ui items padded-container">
       <div className="item">
-        <div className="ui medium rounded image">
+        <div className="ui medium circular image">
           <img src={headShot} alt="Head Shot of Josh" />
         </div>
         <div className=" middle aligned content">
