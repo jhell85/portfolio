@@ -19,14 +19,29 @@
   background: url(/src/img/me-biking.jpeg);
 }
 
-.parallax {
-  min-height: 500px;
+@media screen and (min-width: 769px) {
+  .parallax {
+    min-height: 500px;
+    background-color: black;
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 768px) {
+  .parallax {
+    min-height: 500px;
+    background-color: black;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
 
 .background-color {
