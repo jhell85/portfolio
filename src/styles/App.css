@@ -11,8 +11,42 @@
   padding-left: 50px;
   padding-top: 25%;
 }
+
+.chosin {
+  background: url(/src/img/chosin.jpeg);
+}
+.me-biking {
+  background: url(/src/img/me-biking.jpeg);
+}
+
+@media screen and (min-width: 769px) {
+  .parallax {
+    min-height: 500px;
+    background-color: black;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 768px) {
+  .parallax {
+    min-height: 500px;
+    background-color: black;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
 .background-color {
   background: #c7c2e9 !important;
+  margin-bottom: 0px !important;
 }
 .center {
   text-align: center;
@@ -36,6 +70,10 @@
   padding: 3px !important;
 }
 
+.item-pt {
+  padding-top: 40px !important;
+}
+
 .hello {
   font-size: 550%;
 }
@@ -51,14 +89,11 @@
 
 .rpc {
   background: white !important;
+  padding: 10px !important;
 }
 
 .theorem {
   background: black !important;
-}
-
-.guild > img {
-  width: 250px !important;
 }
 
 .padding-left {

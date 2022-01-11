@@ -18,8 +18,7 @@ function App() {
             <h1 className="landing-text hello">Hello.</h1>
             <h1 className="landing-text">Thank you for visiting.</h1>
             <h1 className="landing-text">
-              I'm <span className="my-name">Joshua Hellman</span>, full-stack web
-              developer
+              I'm <span className="my-name">Joshua Hellman</span>, full-stack web developer
             </h1>
           </div>
         </div>
@@ -39,15 +38,19 @@ function App() {
             </ScrollTo>
           </Menu>
         </Sticky>
-        <Segment 
-        className="background-color"
-        attached="bottom">
+        <Segment className="background-color" attached="bottom">
           <div id="about-content">
             <About />
           </div>
+        </Segment>
+        <div className="parallax chosin" />
+        <Segment className="background-color" attached="bottom">
           <div id="personal-projects-content">
             <PersonalProjects />
           </div>
+        </Segment>
+        <div className="parallax me-biking" />
+        <Segment className="background-color" attached="bottom">
           <div id="professional-experience-content">
             <ProfessionalExperience />
           </div>
